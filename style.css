@@ -22,7 +22,7 @@ nav ul {
   padding-top: 4px;
   margin-left: 12px;
   display: flex;
-  gap: 2vw;
+  gap: calc(2vw + 4px);
 }
 header {
   top: 0;
