@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  font-family: "Jura";
+  overflow: hidden;
+  background-position-y: -120px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 12px 4px 12px;
+  color: aliceblue;
+}
+nav ul {
+  list-style-type: none;
+  padding-top: 4px;
+  margin-left: 12px;
+  display: flex;
+  gap: calc(2vw + 4px);
+}
+header {
+  top: 0;
+  background-color: rgba(100, 100, 100, 0.582);
+  width: 100%;
+}
+button {
+  color: aliceblue;
+  padding: 6px 14px;
+  background-color: red;
+  font-weight: 500;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.774);
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: overline;
+}
+button:hover {
+  color: red;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+/* img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+main div {
+  flex: 1;
+  min-height: calc(100vh - 20px);
+  color: red;
+  font-weight: 900;
+  font-size: 15vh;
+  display: flex;
+}
+main div:nth-of-type(2) {
+  background-image: url(./assets/main.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+div p {
+  margin: auto;
+  writing-mode: vertical-lr;
+}
